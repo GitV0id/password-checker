@@ -68,7 +68,6 @@ if check_password_length(password):
 else:
     print('Password is vulnerable! <8 characters')
 
-
 if check_password_has_uppercase(password):
     print('Has uppercase!')
 else:
@@ -88,4 +87,5 @@ elif score >= 3:
     print('Your password is average.')
 else:
     print('Your password is weak, please upgrade it.')
+
 
