@@ -30,6 +30,7 @@ def check_password_has_uppercase(password):
         if char.isupper():
             return True
     return False
+    
 # This is the scoring logic
 def calculate_final_score(password):
 
@@ -78,7 +79,6 @@ if check_password_has_number(password):
 else:
     print('Password has no numbers!')
 
-
 # This is giving the user recommendations and score
 print(f'\n Password strength score: {score}/5 ')
 
@@ -88,3 +88,4 @@ elif score >= 3:
     print('Your password is average.')
 else:
     print('Your password is weak, please upgrade it.')
+
